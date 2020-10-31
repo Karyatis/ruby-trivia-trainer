@@ -1,8 +1,14 @@
-include JsonParser
+require 'json'
 
 module Round
 
 
+  data = File.read("data.json")
+
+  questions_array = JSON.parse(data)
+
+
+	#Pick 10 random questions
 	round_questions = []
   
 	round_questions << questions_array.sample(10)
@@ -29,4 +35,6 @@ module Round
 	round_data.each do |q|
 		correct_answers << q.last.downcase
 	end
+
+	p round_data
 end

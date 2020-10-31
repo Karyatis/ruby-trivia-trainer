@@ -1,6 +1,4 @@
-require 'json'
-include Parser
-include Round
+require_relative 'round'  
 
 puts "Let's get started!"
 sleep(0.8)
