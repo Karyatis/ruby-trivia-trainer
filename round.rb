@@ -5,7 +5,6 @@ module Round
 		round_questions << questions_array.sample(10)
 		round_questions = round_questions.flatten
 		round_data = round_questions.map {|question| [question["question"], question["incorrect"], question["correct"]]}
-		round_data
 	end
 
 	def questions(round_data)
