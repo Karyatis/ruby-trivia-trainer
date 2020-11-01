@@ -7,3 +7,5 @@ So I went back to the basics. A graduate of Dev Bootcamp (DBC), we learned early
 Had I more time, I would probably have written this in JS (a language I haven't touched since graduating DBC) so that there user experience is more realistic. I'm bothered that there isn't a cloud platform that is hosting this that I can send you to. 
 
 So I'm submitting what a have: A simple program that someone could run in the console and quickly play a game.
+
+To run, simply clone the repo and in the console box type and enter `ruby runner.rb`
