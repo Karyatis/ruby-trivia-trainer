@@ -13,6 +13,7 @@ include Round
   correct_answers = correct_answers(question_selection)
 
   puts "Let's get started!"
+  puts "For each question, type your answer"
   sleep(0.8)
 
   score = 0
